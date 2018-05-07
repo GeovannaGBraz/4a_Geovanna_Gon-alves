@@ -11,6 +11,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
 
 /**
  *
@@ -18,8 +19,14 @@ import javafx.scene.control.Label;
  */
 public class MenuPrincipalController implements Initializable {
     
+    
+    
+    
     @FXML
-    private Label label;
+    private TextField txtNumero1, txtNumero2, txtResultado;
+    
+      @FXML
+    private Button txtNumero1, txtNumero2, txtResultado;
     
     @FXML
     private void handleButtonAction(ActionEvent event) {
